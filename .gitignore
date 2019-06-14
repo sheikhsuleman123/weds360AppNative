@@ -1,0 +1,53 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# expo
+.expo/
+.DS_Store
+# dependencies
+/node_modules
+
+
+# APK
+/android/app/prod
+
+# misc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.tmp
+.expo
+.vscode
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+ios/Pods
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml

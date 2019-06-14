@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Weds360",
+    "version": "0.0.1",
+    "slug": "Weds360",
+    "sdkVersion": "31.0.0",
+    "orientation": "portrait",
+    "splash": {
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain",
+      "image": "./assets/splash_screen.png"
+    },
+    "ios": {
+      "bundleIdentifier": "com.plus360.weds360",
+      "publishBundlePath": "ios/weds360/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/weds360/Supporting/shell-app-manifest.json",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.200104235572-tp1vtteupgkt0q4rdmk70b1qbe1cfs3v"
+        }
+      }
+    },
+    "android": {
+      "package": "com.plus360.weds360",
+      "config": {
+        "googleSignIn": {
+          "apiKey": "AIzaSyDq5YLvd933qsdPZeLRNLLK7Z9wzKeJdyE",
+          "certificateHash": "88D33D7B3B3A3ECFFC8383A5711037121D8CCC3C"
+        }
+      },
+      "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
+      "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
+    },
+    "facebookScheme": "fb1693401784090581",
+    "facebookAppId": "1693401784090581",
+    "facebookDisplayName": "Weds360",
+    "scheme": "expb3ab34d355094fabba81fe5ad55ba8bf",
+    "isDetached": true,
+    "detach": {
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.5.10-sdk27.0.0-7e6dd135-e649-48e2-ab7c-e76521ce6259.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.5.3-sdk27.0.0-408c8d77-8d1f-4784-b7b4-93826250663a.tar.gz"
+    }
+  }
+}
