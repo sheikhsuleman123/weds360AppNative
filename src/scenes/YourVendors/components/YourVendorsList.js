@@ -4,7 +4,7 @@ import { Actions } from 'react-native-router-flux';
 import EStyleSheet from 'react-native-extended-stylesheet';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import Header from '@components/Header';
+import Header from '../../../components/Header';
 import VendorCard from '../components/VendorCard';
 import Search from '@components/SearchBar';
 

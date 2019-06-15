@@ -14,7 +14,7 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import EStyleSheet from 'react-native-extended-stylesheet';
 import ReviewsComponent from '@scenes/Reviews/components/ReviewsComponent';
-import * as ReviewsActions from '@scenes/Reviews/actions';
+import * as ReviewsActions from '../../../Reviews/actions';
 import * as LikesActions from '../../../../actions/likes';
 import * as RingsActions from '../actions';
 import DressAndRingHeader from '../../components/DressAndRingHeader';

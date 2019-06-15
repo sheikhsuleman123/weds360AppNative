@@ -12,8 +12,8 @@ import {
 import { Actions } from 'react-native-router-flux';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import ReviewsComponent from '@scenes/Reviews/components/ReviewsComponent';
-import * as ReviewActions from '@scenes/Reviews/actions';
+import ReviewsComponent from '../../../../scenes/Reviews/components/ReviewsComponent'
+import * as ReviewActions from '../../../Reviews/actions';
 import Info from '../../components/Info';
 import DressAndRingHeader from '../../components/DressAndRingHeader';
 import { BASE_WEB_URL } from '../../../../constants';
