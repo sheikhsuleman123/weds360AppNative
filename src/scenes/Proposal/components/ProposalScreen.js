@@ -1,8 +1,8 @@
 import React from 'react';
 import { Text, View, TextInput } from 'react-native';
 import EStyleSheet from 'react-native-extended-stylesheet';
-import ToolBar from '@components/ToolBar';
-import ColoredButton from '@components/ColoredButton';
+import ToolBar from  '../../../components/ToolBar';
+import ColoredButton from  '../../../components/ColoredButton';
 import DaySlider from '../components/DaySlider';
 import YearSlider from '../components/YearSlider';
 import MonthGrid from '../components/MonthGrid';

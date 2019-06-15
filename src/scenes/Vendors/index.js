@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import * as HomeScreenActions from '@scenes/Homescreen/actions';
+import * as HomeScreenActions from '../../scenes/Homescreen/actions'; 
 import * as VendorsActions from './actions';
 import VendorsScreen from './components/VendorsScreen';
 

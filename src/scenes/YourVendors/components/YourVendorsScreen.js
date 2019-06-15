@@ -10,7 +10,7 @@ import {
   Dimensions
 } from 'react-native';
 import { Actions } from 'react-native-router-flux';
-import PlanningItem from '@scenes/PlanningTools/components/PlanningItem';
+import PlanningItem from  '../../../scenes/PlanningTools/components/PlanningItem';  
 import VendorCard from './VendorCard';
 import { YourVendorsScreenStyles } from './StyleSheet';
 

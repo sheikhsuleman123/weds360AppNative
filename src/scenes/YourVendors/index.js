@@ -2,8 +2,8 @@ import React from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as YourVendorsActions from './actions';
-import * as ServicesActions from '@scenes/Categories/Services/actions';
-import * as HomeScreenActions from '@scenes/Homescreen/actions';
+import * as ServicesActions from '../../scenes/Categories/Services/actions';  
+import * as HomeScreenActions from  '../../scenes/Homescreen/actions' ;
 import YourVendorsScreen from './components/YourVendorsScreen';
 
 class YourVendors extends React.Component {

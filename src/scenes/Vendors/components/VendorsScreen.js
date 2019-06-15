@@ -1,7 +1,7 @@
 import React from 'react';
 import { ActivityIndicator, ScrollView, View } from 'react-native';
 import { Actions } from 'react-native-router-flux';
-import ServiceCategory from '@components/ServiceCategory';
+import ServiceCategory from  '../../../components/ServiceCategory'; 
 import { VendorsScreenStyles } from './StyleSheet';
 
 export default class VendorsScreen extends React.Component {

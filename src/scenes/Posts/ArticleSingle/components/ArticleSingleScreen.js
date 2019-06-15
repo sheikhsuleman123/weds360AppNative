@@ -23,7 +23,7 @@ import { connectActionSheet } from '@expo/react-native-action-sheet';
 import HTML from 'react-native-render-html';
 import SingleArticle from '../../Articles/components/SingleArticle';
 import { BASE_WEB_URL } from '../../../../constants';
-import SectionHeader from '@components/SectionHeader';
+import SectionHeader from '../../../../components/SectionHeader';
 import { ArticleSingleScreenStyles } from './StyleSheet';
 import store from '../../../../../store';
 

@@ -5,10 +5,10 @@ import { Actions } from 'react-native-router-flux';
 import { bindActionCreators } from 'redux';
 import { ImagePicker, Permissions } from 'expo';
 import EditProfileScreen from './components/EditProfileScreen';
-import * as EditProfileActions from '@scenes/Homescreen/actions';
-import * as AuthenticationActions from '@scenes/Authentication/actions';
+import * as EditProfileActions from '../../scenes/Homescreen/actions';
+import * as AuthenticationActions from '../../scenes/Authentication/actions';
 import store from '../../../store';
-import { english, arabic } from '@scenes/LanguageSelect/actions';
+import { english, arabic } from '../../scenes/LanguageSelect/actions';
 
 class EditProfile extends React.Component {
   constructor(props) {

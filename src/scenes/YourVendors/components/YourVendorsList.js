@@ -6,7 +6,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import Header from '../../../components/Header';
 import VendorCard from '../components/VendorCard';
-import Search from '@components/SearchBar';
+import Search from  '../../../components/SearchBar';
 
 class YourVendorsList extends React.Component {
   static navigationOptions = {

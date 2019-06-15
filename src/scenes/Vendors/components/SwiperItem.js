@@ -1,7 +1,7 @@
 import React from 'react';
 import { ImageBackground, Text, View } from 'react-native';
 import EStyleSheet from 'react-native-extended-stylesheet';
-import ColoredButton from '@components/ColoredButton';
+import ColoredButton from '../../../components/ColoredButton'; 
 import { SwiperItemStyles } from './StyleSheet';
 
 export default class SwiperItem extends React.Component {

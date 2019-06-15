@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 import { createMaterialTopTabNavigator, createAppContainer } from 'react-navigation';
-import Vendors from '@scenes/Vendors';
-import YourVendorsScreen from '@scenes/YourVendors';
-import Header from '@components/Header';
-import Messages from '@scenes/Messages/Conversations';
+import Vendors from '../../../scenes/Vendors/index'; 
+import YourVendorsScreen from '../../../scenes/YourVendors'; 
+import Header from '../../../components/Header';
+import Messages from '../../../scenes/Messages/Conversations';
 import store from '../../../../store';
 import { VendorsTabStyles } from './StyleSheet';
 
