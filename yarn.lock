@@ -6118,10 +6118,10 @@ jest-environment-node@^23.4.0:
     jest-mock "^23.2.0"
     jest-util "^23.4.0"
 
-jest-expo@31.0.0:
-  version "31.0.0"
-  resolved "https://registry.yarnpkg.com/jest-expo/-/jest-expo-31.0.0.tgz#6f191eebb646b2654388f5166311385c118a7924"
-  integrity sha512-GWHGY4M53dZljIzEJdGCntZFvWvF7tf6zAhCURaNSLpZ0o7qtVKqjZrjXI8bp+58Hr3O9N9KhWJYKFVzmMLAFQ==
+jest-expo@32.0.0:
+  version "32.0.0"
+  resolved "https://registry.yarnpkg.com/jest-expo/-/jest-expo-32.0.0.tgz#813ad3bc59163f904c6f71d6aac30748ab9d7933"
+  integrity sha512-976qA3FwRrd3ppC5p3wNvqLmV9W8TlHZfNU8sGyhSBFyEp+jrPBhy7511mt+wW8NjCVaIwjpWSO213V1XQxRTA==
   dependencies:
     "@babel/core" "^7.1.0"
     babel-core "^7.0.0-bridge.0"
@@ -6713,9 +6713,9 @@ locate-path@^3.0.0:
     path-exists "^3.0.0"
 
 lodash-es@^4.2.1:
-  version "4.17.11"
-  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.11.tgz#145ab4a7ac5c5e52a3531fb4f310255a152b4be0"
-  integrity sha512-DHb1ub+rMjjrxqlB3H56/6MXtm1lSksDp2rA2cNWjG8mlDUYFhUj3Di2Zn5IwSU87xLv8tNIQ7sSwE/YOX/D/Q==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
+  integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
 
 lodash._reinterpolate@~3.0.0:
   version "3.0.0"
