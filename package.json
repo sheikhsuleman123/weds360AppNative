@@ -60,7 +60,7 @@
     "i18n-js": "^3.1.0",
     "lodash.values": "^4.3.0",
     "module": "^1.2.5",
-    "moment": "^2.23.0",
+    "moment": "^2.29.2",
     "react": "16.5.0",
     "react-dev-tools": "^0.0.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.1.tar.gz",
